@@ -21,7 +21,13 @@ public class MarshmallowMonster
   
 	
 	public MarshmallowMonster(String name, double legCount, int eyeCount, boolean hasNoses, int armCount)
-	
+	{
+		this.name = name;
+		this.legCount = legCount;
+		this.eyeCount = eyeCount;
+		this.hasNoses = hasNoses;
+		this.armCount = armCount;
+	}
 	//Getters
 	
 	public String getName()
@@ -35,7 +41,7 @@ public class MarshmallowMonster
 		return legCount;
 	}
 	
-	public int getEyeCount;
+	public int getEyeCount()
 	{
 		return eyeCount;
 	}
@@ -76,13 +82,7 @@ public class MarshmallowMonster
 		this.armCount = arms;
 	}
 	
-	{
-		this.eyeCount = eyeCount;
-		this.name = name;
-		this.legCount = legCount;
-		this.hasNoses = hasNoses;
-		this.armCount = armCount;
-	}
+	
 	
 	public String toString()
 	{
